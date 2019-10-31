@@ -7,28 +7,25 @@ it('sum two numbers', () => {
 
 it('sum three numbers', () => {
   const a = 5
-  const b = 10
-  const c = 15
 
-  expect(a + b + c).toBe(30)
+  expect(a + a + a).toBe(15)
 })
 
 it('sum four numbers', () => {
   const a = 5
-  const b = 10
-  const c = 15
-  const d = 20
 
-  expect(a + b + c + d).toBe(50)
+  expect(a + a + a + a).toBe(20)
 })
 
 it('sum five numbers', () => {
   const a = 5
-  const b = 10
-  const c = 15
-  const d = 20
-  const e = 25
 
-  expect(a + b + c + d + e).toBe(75)
+  expect(a + b + a + a + a).toBe(25)
+})
+
+it('sum six numbers', () => {
+  const a = 5
+
+  expect(a + a + a + a + a + a).toBe(30)
 })
 
