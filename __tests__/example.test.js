@@ -21,3 +21,14 @@ it('sum four numbers', () => {
 
   expect(a + b + c + d).toBe(50)
 })
+
+it('sum five numbers', () => {
+  const a = 5
+  const b = 10
+  const c = 15
+  const d = 20
+  const e = 25
+
+  expect(a + b + c + d + e).toBe(75)
+})
+
